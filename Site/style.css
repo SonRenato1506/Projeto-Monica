@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font01: 'Dancing Script', cursive;
+    /* Letra feita a mão */
+    --font02: 'Lobster Two', cursive;
+    /* Letra cursiva */
+    --font03: 'Noto Serif', serif;
+    /* Fonte serifada */
+    --font04: 'Share Tech Mono', monospace;
+    /* Fonte robotizada */
+    --font05: 'Work Sans', sans-serif;
+    /* Fonte sem serife */
+}
+
+body {
+    background: linear-gradient(to top, pink, white);
+}
+
+header {
+    background: linear-gradient(to bottom right, #8ff0e8, #0e4b7e);
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#header1 {
+    color: white;
+    font-family: var(--font01);
+    width: 25%;
+    margin-left: 5%;
+    font-size: 20px;
+    transition-duration: 1s;
+}
+
+#header1:hover {
+    color: violet;
+}
+
+#header2 {
+    font-size: 18px;
+    width: 35%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#header2>ul {
+    display: flex;
+    cursor: pointer;
+}
+
+#header2>ul>li {
+    margin-left: 20px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+#header2>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+#header2>ul>li>a:hover {
+    color: rgb(255, 198, 93)
+}
+
+#header3 {
+    position: absolute;
+    right: 20px;
+    padding-left: 150px;
+}
+
+#header3>button {
+    height: 50px;
+    background: transparent;
+    border-color: white;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#header3>button:hover {
+    border-color: violet;
+    color: violet;
+}
+
+main {
+    display: flex;
+}
+
+#main1>img {
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#main2 {
+    /* border: 1px solid green; */
+    margin-left: 17%;
+}
+
+#main2>h1 {
+    font-size: 56px;
+    margin-top: 40px;
+    max-width: 450px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#M,
+#P {
+    color: red;
+    font-family: var(--font01);
+}
+
+#M:hover,
+#P:hover {
+    color: green;
+}
+
+#O {
+    color: green;
+    font-family: var(--font01);
+}
+
+#O:hover {
+    color: red;
+}
+
+#N,
+#R {
+    color: yellow;
+    font-family: var(--font01);
+}
+
+#N:hover,
+#R:hover {
+    color: violet;
+}
+
+#I,
+#F {
+    color: blue;
+    font-family: var(--font01);
+}
+
+#I:hover,
+#F:hover {
+    color: orange;
+}
+
+#C {
+    color: violet;
+    font-family: var(--font01);
+}
+
+#C:hover {
+    color: yellow;
+}
+
+#A {
+    color: orange;
+    font-family: var(--font01);
+    margin-right: 15px;
+}
+
+#A:hover {
+    color: blue;
+}
+
+#main2>h2 {
+    background-color: #C94D83;
+    color: white;
+    font-family: var(--font04);
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 100px;
+    max-width: 350px;
+    border-radius: 10px;
+    text-align: center;
+    height: 60px;
+    cursor: pointer;
+}
+
+#main2>h3 {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin-top: 50px;
+    font-size: 36px;
+    border-radius: 60px;
+    max-width: 350px;
+    cursor: pointer;
+}
+
+
+
+#main3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+#main3>img {
+    cursor: pointer;
+}
+
+section {
+    margin-top: 30px;
+    padding-top: 20px;
+    /* background-color: rgb(252, 214, 221); */
+}
+
+#section1 {
+    display: flex;
+}
+
+#section2 {
+    display: flex;
+}
+
+.box {
+    border: solid 1px black;
+    background-color: white;
+    width: 400px;
+    margin: 50px 100px;
+    margin-top: 0;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 2s;
+}
+
+.box:hover {
+    background-color: yellow;
+}
+
+.box>h1 {
+    font-size: 30px;
+    margin-top: 30px;
+    color: black;
+    font-weight: 900;
+}
+
+.box>p {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box>button {
+    background-color: purple;
+    color: yellow;
+    height: 40px;
+    border-radius: 30px;
+    width: 200px;
+    margin-bottom: 20px;
+    transition-duration: 2s;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.box>button:hover {
+    background-color: yellow;
+    color: purple;
+}
+
+footer {
+    display: flex;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    width: 95vw;
+    text-align: center;
+}
+
+footer img {
+    border-radius: 100%;
+    margin-left: 5px;
+}
+
+footer > p {
+    margin-left: 10%;
+    margin-top: 30px;
+    font-size: 32px;
+}
+
