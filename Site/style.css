@@ -39,6 +39,7 @@ header {
 
 #header1:hover {
     color: violet;
+    transform: scale(1.1);
 }
 
 #header2 {
@@ -65,7 +66,8 @@ header {
 }
 
 #header2>ul>li>a:hover {
-    color: rgb(255, 198, 93)
+    color: rgb(255, 198, 93);
+    transform: scale(1.1);
 }
 
 #header3 {
@@ -89,6 +91,7 @@ header {
 #header3>button:hover {
     border-color: violet;
     color: violet;
+    transform: scale(1.1);
 }
 
 main {
@@ -102,6 +105,10 @@ main {
     cursor: pointer;
 }
 
+#main1>img:hover {
+    transform: scale(1.1);
+}
+
 #main2 {
     /* border: 1px solid green; */
     margin-left: 17%;
@@ -113,6 +120,10 @@ main {
     max-width: 450px;
     text-align: center;
     cursor: pointer;
+}
+
+#main2>h1:hover {
+    transform: scale(1.1);
 }
 
 
@@ -191,6 +202,10 @@ main {
     cursor: pointer;
 }
 
+#main2 > h2:hover {
+    transform: scale(1.1);
+}
+
 #main2>h3 {
     text-align: center;
     background-color: blue;
@@ -200,6 +215,10 @@ main {
     border-radius: 60px;
     max-width: 350px;
     cursor: pointer;
+}
+
+#main2> h3:hover {
+    transform: scale(1.1);
 }
 
 
@@ -212,6 +231,10 @@ main {
 
 #main3>img {
     cursor: pointer;
+}
+
+#main3 > img:hover {
+    transform: scale(1.1);
 }
 
 section {
@@ -242,6 +265,7 @@ section {
 
 .box:hover {
     background-color: yellow;
+    transform: scale(1.1);
 }
 
 .box>h1 {
@@ -277,6 +301,7 @@ section {
 }
 
 footer {
+    background: linear-gradient(to bottom, pink, violet);
     display: flex;
     padding-bottom: 35px;
     padding-left: 35px;
@@ -287,6 +312,10 @@ footer {
 footer img {
     border-radius: 100%;
     margin-left: 5px;
+}
+
+footer img:hover {
+    transform: scale(1.1);
 }
 
 footer > p {
