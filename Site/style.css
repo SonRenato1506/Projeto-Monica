@@ -233,9 +233,7 @@ main {
     cursor: pointer;
 }
 
-#main3 > img:hover {
-    transform: scale(1.1);
-}
+
 
 section {
     margin-top: 30px;
@@ -320,7 +318,7 @@ footer img:hover {
 
 footer > p {
     margin-left: 10%;
-    margin-top: 30px;
+    margin-top: 65px;
     font-size: 32px;
 }
 
