@@ -76,7 +76,7 @@ header {
     padding-left: 150px;
 }
 
-#header3>button {
+#header3 button {
     height: 50px;
     background: transparent;
     border-color: white;
@@ -88,7 +88,7 @@ header {
 
 }
 
-#header3>button:hover {
+#header3 button:hover {
     border-color: violet;
     color: violet;
     transform: scale(1.1);
